@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link de hojas-->
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Dólar Blue Converter</title>
+</head>
+<body>
+    <h1 class="text">Dólar Blue Converter</h1>
+    
+    <label for="amount" class="text">Monto en Dólar Blue:</label>
+    <input type="text" id="amount" class="center">
+    
+    <button onclick="convertToARS()" id="btn" class="center">Convertir a ARS</button>
+    <button onclick="convertToUSD()" id="btn" class="center">Convertir a USD</button>
+    <button onclick="clearHistory()" id="btn" class="center">Borrar Historial</button>
+    
+    <h2 class="text">Historial de Conversiones</h2>
+    <ul id="conversionHistory">
+        <!-- Historial de Conversiones -->
+    </ul>
+
+    
+</body>
+</html>
